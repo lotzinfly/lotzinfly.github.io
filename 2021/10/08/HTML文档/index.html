@@ -1,0 +1,237 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>将本地项目代码上传到Gitee或GitHub | Lotzinfly</title><meta name="author" content="Lotzinfly"><meta name="copyright" content="Lotzinfly"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="HTMLHTML，超文本标记语言负责页面中的结构，定义出页面中的各个组成部分HTML是采用纯文本的形式的编写，采用HTML标签来标识出页面中的不同部分 HTML页面的基本结构一个网页有三个部分组成：结构html、表现css、行为javascript 结构html结构是页面的整体结构，哪里是标题，哪里是段落，哪里是图片结构使用HTML来编写 表现css表现是页面的外在的样式，比如字体，字体大小，字体">
+<meta property="og:type" content="article">
+<meta property="og:title" content="将本地项目代码上传到Gitee或GitHub">
+<meta property="og:url" content="http://example.com/2021/10/08/HTML%E6%96%87%E6%A1%A3/index.html">
+<meta property="og:site_name" content="Lotzinfly">
+<meta property="og:description" content="HTMLHTML，超文本标记语言负责页面中的结构，定义出页面中的各个组成部分HTML是采用纯文本的形式的编写，采用HTML标签来标识出页面中的不同部分 HTML页面的基本结构一个网页有三个部分组成：结构html、表现css、行为javascript 结构html结构是页面的整体结构，哪里是标题，哪里是段落，哪里是图片结构使用HTML来编写 表现css表现是页面的外在的样式，比如字体，字体大小，字体">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/wz.png">
+<meta property="article:published_time" content="2021-10-07T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-10-08T12:58:18.223Z">
+<meta property="article:author" content="Lotzinfly">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/wz.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2021/10/08/HTML%E6%96%87%E6%A1%A3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '将本地项目代码上传到Gitee或GitHub',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-10-08 20:58:18'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/wx.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/./img/wz.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Lotzinfly</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">将本地项目代码上传到Gitee或GitHub</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-10-07T16:00:00.000Z" title="发表于 2021-10-08 00:00:00">2021-10-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-10-08T12:58:18.223Z" title="更新于 2021-10-08 20:58:18">2021-10-08</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="将本地项目代码上传到Gitee或GitHub"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><p>HTML，超文本标记语言<br>负责页面中的结构，定义出页面中的各个组成部分<br>HTML是采用纯文本的形式的编写，采用HTML标签来标识出页面中的不同部分</p>
+<h1 id="HTML页面的基本结构"><a href="#HTML页面的基本结构" class="headerlink" title="HTML页面的基本结构"></a>HTML页面的基本结构</h1><p>一个网页有三个部分组成：结构html、表现css、行为javascript</p>
+<h1 id="结构html"><a href="#结构html" class="headerlink" title="结构html"></a>结构html</h1><p>结构是页面的整体结构，哪里是标题，哪里是段落，哪里是图片<br>结构使用HTML来编写</p>
+<h1 id="表现css"><a href="#表现css" class="headerlink" title="表现css"></a>表现css</h1><p>表现是页面的外在的样式，比如字体，字体大小，字体颜色，背景…<br>使用CSS来设置页面中元素的样式</p>
+<h1 id="行为javascript"><a href="#行为javascript" class="headerlink" title="行为javascript"></a>行为javascript</h1><p>页面和用户之间的交互行为<br>使用JavaScript来设置页面的行为<br>一个设计优良的网页要求结构、表现、行为三者分离<br>在开发中总是要面临一个问题，就是程序之间的耦合，三者分离就是为了解耦合</p>
+<h1 id="标签-元素"><a href="#标签-元素" class="headerlink" title="标签(元素)"></a>标签(元素)</h1><p>成对出现</p>
+<p>1<br>&lt;标签名&gt;&lt;/标签名&gt;<br>自结束标签</p>
+<p>1<br>&lt;标签名 /&gt;</p>
+<h1 id="块元素和内联元素"><a href="#块元素和内联元素" class="headerlink" title="块元素和内联元素"></a>块元素和内联元素</h1><p>块元素</p>
+<p>块元素会独占页面中的一行，无论他的内容的多少<br>一般使用块元素对页面进行布局<br>常见的块元素<br>div<br>p<br>h1~h6</p>
+<p>内联元素</p>
+<p>内联元素只占用自身的大小，不会独占一行<br>内联元素也叫行内元素（inline）<br>一般内联元素都是用来为文本来设置效果<br>常见的内联<br>span<br>a<br>img<br>包裹规则<br>一般都是使用块元素去包裹内联元素，而不会使用内联去包裹块元素<br>a元素可以包含任意元素，除了a本身<br>p元素不能包含任何块元素</p>
+<p>元素之间的关系<br>父元素<br>直接包含子元素的的元素叫做父元素<br>子元素<br>直接被父元素包含的元素叫做子元素<br>祖先元素<br>直接或间接包含后代元素的元素叫做祖先元素，父元素也是祖先元素<br>后代元素<br>直接或间接被祖先元素包含的元素叫后代元素，子元素也是后代元素<br>兄弟元素<br>拥有相同父元素的元素叫做兄弟元素</p>
+<p>属性<br>通过属性可以设置标签的效果<br>属性需要定义在开始标签中或这自结束标签中<br>属性实际上是一组一组名值对结构<br>例子：</p>
+<p>1<br>2<br>&lt;标签名 属性名=”属性值” 属性名=”属性值”&gt;&lt;/标签名&gt;<br>&lt;标签名 属性名=”属性值” 属性名=”属性值” /&gt;<br>复制</p>
+<h1 id="常用标签"><a href="#常用标签" class="headerlink" title="常用标签"></a>常用标签</h1><!doctype html><p>文档声明<br>用来标识当前页面的html的版本<br>该声明用来告诉浏览器，当前的页面是使用HTML5的标准编写的</p>
+<html>网页的根标签
+一个页面中有且只有一个根标签
+网页中的所有内容都需要写在html标签的内部
+
+<head>网页的头部
+
+<p>该标签中的内容不会在网页中直接显示<br>该标签用于帮助浏览器解析页面<br>子标签</p>
+<title>用来设置网页的标题
+默认会在浏览器的标题栏中显示
+搜索引擎检索网页时，会主要检索title中的内容，它会影响到页面在搜索引擎中的排名
+<meta>
+用来设置网页的元数据，比如网页使用的字符集
+<meta charset="utf-8" />
+设置网页的关键字
+<meta name="keywords" content="关键字,关键字,关键字,关键字"/>
+设置网页的描述
+<meta name="description" content="网页的描述"/>
+请求的重定向
+<meta http-equiv="refresh" content="秒数;url=地址" />
+
+<body>网页的主体
+
+<p>网页中所有的可见部分都需要在body中编写</p>
+<h1> ~ <h6>
+标题标签
+在html中一共有六级标题
+六级标题中，h1最重要，h6最不重要，一般页面中只会使用h1~h3
+h1的重要性仅次于title，浏览器也会主要检索h1中的内容，以判断页面的主要内容
+一般一个页面中只能写一个h1
+<p>
+段落标签
+<br />
+换行标签
+<hr />
+水平线标签
+内联框架
+可以向一个页面中引入其他的外部页面
+<iframe>``</iframe>
+属性
+src
+外部页面的地址，可以使用相对路径
+width和height
+可以设置框架的宽度和高度
+name
+可以为内联框架指定一个名字
+可以将该属性值设置为超链接的target属性的值
+这样当点击超链接时，页面将会在相应的内联框架中打开
+内联框架中的内容不会被搜索引擎所检索，所以开发中尽量不要使用内联框架
+
+<p><a>超链接<br>可以使当前页面跳转到其他的页面<br><a>链接的文字</a><br>属性<br>href<br>指向链接跳转的目标地址，可以是一个相对路径<br>还可以是#id属性值，这样当点击超链接以后，将会跳转到当前页面的指定位置<br>可以使用mailto:来创建一个发送电子邮件的超链接<br>target<br>指定在哪个窗口中打开链接<br>可选值<br>_self<br>默认值，默认在当前窗口打开链接<br>_blank<br>在新窗口中打开链接<br>内联框架的name属性值<br>在指定的内联框架中打开链接</p>
+<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><p>注释</p>
+<!-- 注释内容 -->  
+<p>注释中的内容不会在页面中显示，但是会在源码中显示，我们可以通过注释来说明网页的代码<br>也可以通过注释隐藏一些页面中不想显示的内容</p>
+<p>实体<br>在HTML页面中一些特殊符号是不能直接使用，需要使用实体来代替这些特殊符号<br>实体也可以称为转义字符<br>实体的语法<br>&amp;实体名;<br>常用的实体<br>空格&nbsp; Non-Breaking Space” 的缩写，</p>
+<p>&lt;&lt; 、&gt;&gt;、版权符号©&copy;</p>
+<p>图片标签</p>
+<p>使用图片标签可以向页面中引入一个外部图片<br>属性<br>src<br>指向一个外部图片的路径，可以使用相对路径<br>alt<br>指定一个在图片无法加载时对图片的描述<br>搜索引擎主要通过该属性来识别图片的内容<br>如果不写该属性则搜索引擎会对图片进行收录<br>width<br>设置图片的宽度<br>height<br>设置图片的高度<br>图片的格式<br>JPEG<br>颜色丰富的图片，如，照片<br>GIF<br>颜色单一，简单透明的图片，动态图<br>PNG<br>颜色丰富，复杂透明的图片<br>图片选择的原则<br>效果一致，用小的<br>效果不一致，用效果好的<br>相对路径<br>相对于当前资源所在的目录的路径<br>可以使用../返回一级目录，返回几级使用几个../<br>xHtml语法规范<br>1.HTML中不区分大小写，但是尽量使用小写<br>2.HTML的注释不能嵌套<br>3.标签必须结构完整<br>要么成对出现<br>要么自结束标签<br>4.标签可以嵌套但是不能交叉嵌套<br>5.属性必须有值，且值必须加引号，单引号双引号都可以</p>
+<h1 id="文本标签"><a href="#文本标签" class="headerlink" title="文本标签"></a>文本标签</h1><pre><code>`&lt;em&gt;`  
+    表示语气上的强调  
+`&lt;strong&gt;`  
+    表示内容的重要性  
+`&lt;i&gt;`  
+    表示单纯的斜体  
+</code></pre>
+<p><code>&lt;b&gt;</code><br>        表示单纯的加粗<br>    <code>&lt;small&gt;</code><br>        表示细则一类的内容<br>    <code>&lt;cite&gt;</code><br>        表示参考的内容，凡是加书名号的都可以使用cite<br>    <code>&lt;q&gt;</code><br>        短引用，行内引用<br>&lt; blockquote&gt;</p>
+<p>长引用，块级引用</p>
+<sup>
+上标
+<sub>
+下标
+<del>
+删除的内容
+<ins>
+插入的内容
+
+<p>&lt; pre&gt;<br>预格式标签，可以保留代码中空格换行这些格式<br>&lt; code&gt;<br>表示程序代码</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Lotzinfly</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2021/10/08/HTML%E6%96%87%E6%A1%A3/">http://example.com/2021/10/08/HTML%E6%96%87%E6%A1%A3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Lotzinfly</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/./img/wz.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2021/09/28/%E5%B0%86%E6%9C%AC%E5%9C%B0%E9%A1%B9%E7%9B%AE%E4%BB%A3%E7%A0%81%E4%B8%8A%E4%BC%A0%E5%88%B0Gitee%E6%88%96GitHub/"><img class="next-cover" src="/./img/wz.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">将本地项目代码上传到Gitee或GitHub</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#HTML"><span class="toc-number">1.</span> <span class="toc-text">HTML</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#HTML%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84"><span class="toc-number">2.</span> <span class="toc-text">HTML页面的基本结构</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E6%9E%84html"><span class="toc-number">3.</span> <span class="toc-text">结构html</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A1%A8%E7%8E%B0css"><span class="toc-number">4.</span> <span class="toc-text">表现css</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A1%8C%E4%B8%BAjavascript"><span class="toc-number">5.</span> <span class="toc-text">行为javascript</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%87%E7%AD%BE-%E5%85%83%E7%B4%A0"><span class="toc-number">6.</span> <span class="toc-text">标签(元素)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9D%97%E5%85%83%E7%B4%A0%E5%92%8C%E5%86%85%E8%81%94%E5%85%83%E7%B4%A0"><span class="toc-number">7.</span> <span class="toc-text">块元素和内联元素</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE"><span class="toc-number">8.</span> <span class="toc-text">常用标签</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Lotzinfly</div><div class="footer_custom_text">很高兴认识你👾👻</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
